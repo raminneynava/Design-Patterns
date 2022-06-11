@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32519.379
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Singleton", "Singleton\Singleton.csproj", "{1F6A39B8-E474-4864-9658-9986EF214CE7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Singleton", "Singleton\Singleton.csproj", "{1F6A39B8-E474-4864-9658-9986EF214CE7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Decorator", "Decorator\Decorator.csproj", "{D9643D78-4F03-4F8E-B268-2E5D6E85CB72}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{1F6A39B8-E474-4864-9658-9986EF214CE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1F6A39B8-E474-4864-9658-9986EF214CE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1F6A39B8-E474-4864-9658-9986EF214CE7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9643D78-4F03-4F8E-B268-2E5D6E85CB72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9643D78-4F03-4F8E-B268-2E5D6E85CB72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9643D78-4F03-4F8E-B268-2E5D6E85CB72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9643D78-4F03-4F8E-B268-2E5D6E85CB72}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
