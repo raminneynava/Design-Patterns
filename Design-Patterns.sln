@@ -7,11 +7,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Singleton", "Singleton\Sing
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Decorator", "Decorator\Decorator.csproj", "{D9643D78-4F03-4F8E-B268-2E5D6E85CB72}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Facade", "Facade\Facade.csproj", "{A63972D3-6819-4738-A9A1-411A480786C9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Facade", "Facade\Facade.csproj", "{A63972D3-6819-4738-A9A1-411A480786C9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bridge", "Bridge\Bridge.csproj", "{D1212639-FA6A-401E-9829-82D055C1E400}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bridge", "Bridge\Bridge.csproj", "{D1212639-FA6A-401E-9829-82D055C1E400}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bridge2", "Bridge2\Bridge2.csproj", "{7428A572-CAFB-4790-B5F2-3F7B01843E85}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bridge2", "Bridge2\Bridge2.csproj", "{7428A572-CAFB-4790-B5F2-3F7B01843E85}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Builder", "Builder\Builder.csproj", "{CBF2036B-47B1-4891-B660-9B8D76ABF7F8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{7428A572-CAFB-4790-B5F2-3F7B01843E85}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7428A572-CAFB-4790-B5F2-3F7B01843E85}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7428A572-CAFB-4790-B5F2-3F7B01843E85}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CBF2036B-47B1-4891-B660-9B8D76ABF7F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBF2036B-47B1-4891-B660-9B8D76ABF7F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBF2036B-47B1-4891-B660-9B8D76ABF7F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBF2036B-47B1-4891-B660-9B8D76ABF7F8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

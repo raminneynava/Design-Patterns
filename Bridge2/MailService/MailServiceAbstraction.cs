@@ -23,10 +23,6 @@ namespace Bridge2.MailService
         }
     }
 
-    public class RefindeMailService: MailServiceAbstraction
-    {
-    }
-
     public class EmailInftoDto
     {
         public string Reciver { get; set; }
