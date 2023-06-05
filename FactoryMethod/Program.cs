@@ -24,9 +24,5 @@ _email.Send(new EmailDto
     Message = "Send By Google"
 });
 
-
-
-
-
 Console.ReadKey();
 
