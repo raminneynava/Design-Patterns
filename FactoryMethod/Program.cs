@@ -4,6 +4,8 @@ using System.Linq.Expressions;
 using FactoryMethod;
 using FactoryMethod.FactoryMethod;
 
+using FactoryMethod2;
+
 //--------------------------------------
 Console.WriteLine("Hello, World!");
 var Create = new ConcreateCreator();
@@ -14,7 +16,7 @@ p.Excute();
 //--------------------------------------
 
 
-IEmailManager _email;
+FactoryMethod.IEmailManager _email;
 ICreator creator= new FactoryMethod.FactoryMethod.Creator();
 _email = creator.FactoryMethod();
 _email.Send(new EmailDto
@@ -24,5 +26,14 @@ _email.Send(new EmailDto
     Message = "Send By Google"
 });
 
-Console.ReadKey();
 
+//----------------------------------------
+FactoryMethod2.IEmailManager emailManager;
+
+IFactoryCreator creator2 = new GoogleEmailSend();
+
+emailManager = creator2.SendEmail();
+
+emailManager.Send();
+
+Console.ReadKey();

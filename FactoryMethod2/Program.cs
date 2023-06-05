@@ -4,10 +4,3 @@ using FactoryMethod2;
 Console.WriteLine("Hello, World!");
 
 
-IEmailManager emailManager;
-
-IFactoryCreator creator = new GoogleEmailSend();
-
-emailManager = creator.SendEmail();
-
-emailManager.Send();
