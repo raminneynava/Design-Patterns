@@ -25,9 +25,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Prototype", "Prototype\Prot
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Adapter", "Adapter\Adapter.csproj", "{224D4E97-846A-40F7-9AD1-EFFB5EF04D47}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Proxy", "Proxy\Proxy.csproj", "{DE807812-D09F-4B0A-A62B-CAA34B7BCE9C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Proxy", "Proxy\Proxy.csproj", "{DE807812-D09F-4B0A-A62B-CAA34B7BCE9C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mediator", "Mediator\Mediator.csproj", "{F5DDAFBA-7616-4696-BD99-A777574DB7B9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mediator", "Mediator\Mediator.csproj", "{F5DDAFBA-7616-4696-BD99-A777574DB7B9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chain-of-Responsibility", "Chain-of-Responsibility\Chain-of-Responsibility.csproj", "{4DF0467C-F76B-4350-B050-EDE6922C42B7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -87,6 +89,10 @@ Global
 		{F5DDAFBA-7616-4696-BD99-A777574DB7B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F5DDAFBA-7616-4696-BD99-A777574DB7B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F5DDAFBA-7616-4696-BD99-A777574DB7B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4DF0467C-F76B-4350-B050-EDE6922C42B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DF0467C-F76B-4350-B050-EDE6922C42B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DF0467C-F76B-4350-B050-EDE6922C42B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DF0467C-F76B-4350-B050-EDE6922C42B7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
